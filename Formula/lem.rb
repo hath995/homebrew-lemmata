@@ -12,19 +12,19 @@
 class Lem < Formula
   desc "Verified package manager for Dafny (bundles its own pinned Dafny+Z3)"
   homepage "https://lemmata.sh"
-  version "0.1.25"
+  version "0.1.26"
   # Proprietary/closed-source: the binary bundle is redistributable but the source
   # is not open, and Homebrew has no SPDX identifier for that.
   license :cannot_represent
 
   on_arm do
-    url "https://github.com/hath995/lemmata-releases/releases/download/v0.1.25/lem-0.1.25-osx-arm64.tar.gz"
-    sha256 "66c1d88871aa5e70898775170bb58662204f8c661ed61ff3b632aaf062fc53cc"
+    url "https://github.com/hath995/lemmata-releases/releases/download/v0.1.26/lem-0.1.26-osx-arm64.tar.gz"
+    sha256 "8fb89cf141c62a8d34bc2eca20dc8b8dab9f2f56a9d29f9eb815d6a4ced09622"
   end
 
   on_intel do
-    url "https://github.com/hath995/lemmata-releases/releases/download/v0.1.25/lem-0.1.25-osx-x64.tar.gz"
-    sha256 "34f1ff9b6fa56354ae8be1a5ca66df935e4d133c2807420f318e5f0b28f20ddc"
+    url "https://github.com/hath995/lemmata-releases/releases/download/v0.1.26/lem-0.1.26-osx-x64.tar.gz"
+    sha256 "bda869e4fb546296d8ebbf8eb5009a229f40d87fe027104cab1ff12c58e14096"
   end
 
   livecheck do
